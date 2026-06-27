@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Colors - Dark mode (default) */
+  --background: #050816;
+  --foreground: #f4f4f5;
+  --muted: #71717a;
+  --accent: #4f46e5;
+  --accent-hover: #4338ca;
+  /* softer indigo for selection */
+  --selection-bg: #312e81;
+
+  /* Font families - set by next/font */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: var(--font-mono), ui-monospace, SFMono-Regular, "SF Mono", Menlo,
+    Consolas, "Liberation Mono", monospace;
+
+  /* Card styling */
+  --card-bg: rgba(255, 255, 255, 0.05);
+  --card-border: rgba(255, 255, 255, 0.1);
+
+  /* Spacing for consistency */
+  --nav-height: 64px;
+}
+
+/* Light mode (for future theme toggle) */
+.light {
+  --background: #ffffff;
+  --foreground: #1f2937;
+  --muted: #6b7280;
+  --accent: #4f46e5;
+  --accent-hover: #4338ca;
+  --selection-bg: #c7d2fe;
+  --card-bg: rgba(0, 0, 0, 0.02);
+  --card-border: rgba(0, 0, 0, 0.1);
+}
+
+html {
+  /* Keep this so hash targets don’t hide under sticky nav */
+  scroll-padding-top: 84px;
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Mobile navbar is usually a bit taller */
+@media (max-width: 639px) {
+  html {
+    scroll-padding-top: 76px;
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.text-muted-foreground {
+  color: var(--muted);
+}
+
+/* Default: arrow cursor everywhere, but still allow text selection */
+* {
+  cursor: default;
+}
+
+/* Clickable elements: hand/pointer cursor */
+a,
+button,
+[role="button"],
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  cursor: pointer;
+}
+
+/* Real text inputs: text/I-beam cursor */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input:not([type]),
+textarea {
+  cursor: text;
+}
+
+/* Text selection color (softer than accent) */
+::selection {
+  background-color: var(--selection-bg);
+  color: var(--foreground);
+}
+
+::-moz-selection {
+  background-color: var(--selection-bg);
+  color: var(--foreground);
+}
+
+@keyframes modal-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.modal-enter {
+  animation: modal-fade-up 0.18s ease-out;
+}
+
+@keyframes tooltip-in {
+  from {
+    opacity: 0;
+    transform: translateY(2px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-tooltip-in {
+  animation: tooltip-in 0.15s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.2s ease-out;
+}
+
+/* Page transition (issue #4) */
+@keyframes page-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-page-fade {
+  animation: page-fade-in 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Hard on/off blink for the typewriter caret — closer to a real text cursor
+   than `animate-pulse`, which is a soft opacity fade. */
+@keyframes caret-blink {
+  0%, 49.999% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+.animate-caret-blink {
+  animation: caret-blink 1.06s steps(2) infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-page-fade {
+    animation: none;
+  }
+}
+
+/* Optional: generic skeleton shimmer */
+.skeleton {
+  @apply rounded-md bg-white/5;
+  position: relative;
+  overflow: hidden;
+}
+
+.skeleton::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.08),
+    transparent
+  );
+  animation: skeleton-shimmer 1.2s infinite;
+}
+
+@keyframes skeleton-shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@layer utilities {
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* Default marquee speed (desktop / larger screens) */
+  .marquee-row {
+    animation: marquee 36s linear infinite;
+  }
+
+  /* Faster marquee on small screens (phones) */
+  @media (max-width: 640px) {
+    .marquee-row {
+      animation-duration: 12s; /* lower = faster, tweak if you want */
+    }
+  }
+}

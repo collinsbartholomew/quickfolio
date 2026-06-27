@@ -1,0 +1,253 @@
+{
+  "name": "Kevin Trinh",
+  "title": "Software Engineer",
+  "tagline": "Software Engineer, Developer, Creator, Business Owner & CS Student at the University of Houston.",
+  "location": "Houston, TX",
+
+  "socials": [
+    {
+      "key": "github",
+      "label": "GitHub",
+      "href": "https://github.com/KevinTrinhDev",
+      "icon": "Github",
+      "detail": "My profile & projects",
+      "showIn": { "footer": true, "about": true, "contact": true }
+    },
+    {
+      "key": "linkedin",
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/KevinTrinhDev",
+      "icon": "Linkedin",
+      "detail": "in/KevinTrinhDev",
+      "showIn": { "footer": true, "about": true, "contact": true }
+    },
+    {
+      "key": "tiktok",
+      "label": "TikTok",
+      "href": "https://www.tiktok.com/@KevinTrinhDev",
+      "icon": "Music2",
+      "detail": "@KevinTrinhDev",
+      "showIn": { "footer": true, "about": true, "contact": true }
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram",
+      "href": "https://www.instagram.com/KevinTrinhDev/",
+      "icon": "Instagram",
+      "detail": "@KevinTrinhDev",
+      "showIn": { "footer": true, "about": true, "contact": true }
+    },
+    {
+      "key": "leetcode",
+      "label": "LeetCode",
+      "href": "https://leetcode.com/KevinTrinhDev/",
+      "icon": "Code",
+      "detail": "View my solutions",
+      "showIn": { "footer": true, "about": true, "contact": true }
+    },
+    {
+      "key": "youtube",
+      "label": "YouTube",
+      "href": "https://www.youtube.com/@KevinTrinhDev",
+      "icon": "Youtube",
+      "detail": "View my channel",
+      "showIn": { "footer": true, "about": true, "contact": true }
+    },
+    {
+      "key": "threads",
+      "label": "Threads",
+      "href": "https://www.threads.net/@KevinTrinhDev",
+      "icon": "AtSign",
+      "detail": "@KevinTrinhDev",
+      "showIn": { "footer": true, "about": true, "contact": true }
+    },
+    {
+      "key": "x",
+      "label": "X",
+      "href": "https://x.com/KevinTrinhDev",
+      "icon": "Twitter",
+      "detail": "@KevinTrinhDev",
+      "showIn": { "footer": true, "about": true, "contact": true }
+    },
+    {
+      "key": "devto",
+      "label": "Dev.to",
+      "href": "https://dev.to/KevinTrinhDev",
+      "icon": "Code2",
+      "detail": "View my articles",
+      "showIn": { "footer": true, "about": true, "contact": true }
+    },
+    {
+      "key": "medium",
+      "label": "Medium",
+      "href": "https://medium.com/@KevinTrinhDev",
+      "icon": "PenSquare",
+      "detail": "Read my articles",
+      "showIn": { "footer": true, "about": true, "contact": true }
+    },
+    {
+      "key": "email",
+      "label": "Email",
+      "href": "mailto:contact@kevintrinh.dev",
+      "icon": "Mail",
+      "detail": "contact@kevintrinh.dev",
+      "showIn": { "footer": true, "about": true, "contact": true }
+    },
+    {
+      "key": "discordTag",
+      "label": "Discord",
+      "href": "copy:kevintrnh",
+      "icon": "MessageCircle",
+      "detail": "Copy my Discord tag",
+      "showIn": { "footer": true, "about": true, "contact": true }
+    },
+    {
+      "key": "discord",
+      "label": "Discord",
+      "href": "/discord",
+      "icon": "MessageCircle",
+      "detail": "Join my server",
+      "showIn": { "footer": true, "about": true, "contact": true }
+    },
+    {
+      "key": "telegram",
+      "label": "Telegram",
+      "href": null,
+      "icon": "Send",
+      "detail": null,
+      "showIn": { "footer": false, "about": false, "contact": false }
+    },
+    {
+      "key": "handshake",
+      "label": "Handshake",
+      "href": "https://app.joinhandshake.com/profiles/kevintrinhdev",
+      "icon": "GraduationCap",
+      "detail": "@kevintrinhdev",
+      "showIn": { "footer": true, "about": false, "contact": false }
+    }
+  ],
+
+  "nav": {
+    "items": [
+      {
+        "id": "about",
+        "label": "About",
+        "show": true,
+        "isButton": false
+      },
+      {
+        "id": "education",
+        "label": "Education",
+        "show": false,
+        "isButton": false
+      },
+      {
+        "id": "experience",
+        "label": "Experience",
+        "show": true,
+        "isButton": false
+      },
+
+      {
+        "id": "projects",
+        "label": "Projects",
+        "show": true,
+        "isButton": false
+      },
+
+      {
+        "id": "articles",
+        "label": "Articles",
+        "show": true,
+        "isButton": false
+      },
+
+      {
+        "id": "youtube",
+        "label": "YouTube",
+        "show": false,
+        "isButton": false
+      },
+      {
+        "id": "certifications",
+        "label": "Certifications",
+        "show": false,
+        "isButton": false
+      },
+
+      {
+        "id": "more",
+        "label": "More",
+        "href": "",
+        "show": true,
+        "isButton": false,
+        "children": [
+          {
+            "id": "who-i-am",
+            "label": "About",
+            "href": "/#about",
+            "description": "Who I am, my purpose & goals",
+            "icon": "User",
+            "column": "left"
+          }
+        ]
+      },
+
+      {
+        "id": "resume",
+        "label": "View My Resume",
+        "href": "/resume",
+        "show": true,
+        "isButton": true,
+        "external": true
+      }
+    ]
+  },
+
+  "sections": {
+    "hero": true,
+    "about": true,
+    "education": false,
+    "experience": true,
+    "projects": true,
+    "publications": true,
+    "articles": true,
+    "youtube": false,
+    "certifications": false,
+    "contact": false,
+    "resume": true
+  },
+
+  "repo": {
+    "url": "https://github.com/KevinTrinhDev/QuickFolio",
+    "lastCommitSha": "0a03d2a3698bf4095f1287bacaab7846dfb5e3d0",
+    "lastCommitMessage": "Refined layout, sections, and contact form",
+    "lastCommitDateISO": "2025-01-10T03:12:45Z",
+    "lastCommitUrl": "https://github.com/KevinTrinhDev/QuickFolio/commit/0a03d2a3698bf4095f1287bacaab7846dfb5e3d0",
+    "stars": 42,
+    "forks": 7,
+    "downloads": 120
+  },
+
+  "resume": {
+    "source": "google",
+    "googleDocId": "",
+    "file": {
+      "path": "Kevin_Trinh_Resume.pdf",
+      "url": ""
+    },
+    "filename": "KevinTrinhResume.pdf",
+    "cacheSeconds": 3600
+  },
+
+  "sponsor": {
+    "enabled": true,
+    "url": "https://github.com/sponsors/KevinTrinhDev"
+  },
+
+  "featuredContent": {
+    "youtubeVideoId": "K1qKbZqBh0w",
+    "youtubeVideoTitle": "React Awesome Reveal NPM: On Scroll Animation Guide For React.JS",
+    "youtubeChannelId": "UCFkzs_q42Kluy4hi-Zj05gQ"
+  }
+}

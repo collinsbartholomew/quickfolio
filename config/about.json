@@ -1,0 +1,299 @@
+{
+  "handle": "KevinTrinhDev",
+  "displayName": "Kevin Huy Trinh",
+  "roleLine": "Computer Science student focused on building clean, useful software.",
+  "schoolName": "University of Houston",
+  "avatarUrl": "/avatar.jpg",
+
+  "cta": {
+    "primary": {
+      "label": "Read more about me",
+      "href": "/#about",
+      "external": false
+    },
+    "secondary": {
+      "label": "Read more about me",
+      "href": "/#about",
+      "external": true
+    }
+  },
+
+  "followers": { "followers": 506, "following": 26 },
+
+  "profileLinks": [
+    { "type": "school", "label": "University of Houston" },
+    {
+      "type": "email",
+      "label": "contact@kevintrinh.dev",
+      "href": "mailto:contact@kevintrinh.dev"
+    },
+    {
+      "type": "linkedin",
+      "label": "in/KevinTrinhDev",
+      "href": "https://www.linkedin.com/in/KevinTrinhDev"
+    },
+    {
+      "type": "github",
+      "label": "github.com/KevinTrinhDev",
+      "href": "https://github.com/KevinTrinhDev"
+    }
+  ],
+
+  "readme": {
+    "fileLabel": "README.md",
+    "paragraphs": [
+      "I'm a Computer Science student at the University of Houston building full-stack apps with a focus on clean UI and maintainable architecture. Most recently I shipped a degree-planning tool used by 100+ UH students.",
+      "Outside of code I'm into machine learning, desk setups and PCs, chess, thrifting, and gaming."
+    ],
+    "afterTechParagraph": "Right now I'm focused on shipping production-grade tools for students and small businesses — full-stack apps with thoughtful UI, reliable data layers, and infrastructure that scales without surprises."
+  },
+
+  "techUsed": [
+    "C++",
+    "Python",
+    "React",
+    "PostgreSQL",
+    "Google Cloud",
+    "Linux Ubuntu",
+    "Git"
+  ],
+
+  "snapshot": {
+    "title": "Developer Snapshot",
+    "cards": [
+      {
+        "title": "Projects & Repositories",
+        "description": "Overall stats of some of my projects & work.",
+        "icon": "FolderGit2",
+        "stats": [
+          { "icon": "Star", "label": "Stars", "value": "109" },
+          { "icon": "GitFork", "label": "Forks", "value": "17" },
+          { "icon": "Activity", "label": "Downloads", "value": "120" }
+        ]
+      },
+      {
+        "title": "GitHub activity overview",
+        "description": "Recent activity across my work on GitHub.",
+        "icon": "Github",
+        "stats": [
+          { "icon": "GitCommitHorizontal", "label": "Commits", "value": "985" },
+          { "icon": "FolderGit2", "label": "Repos", "value": "42" },
+          { "icon": "GitPullRequest", "label": "PRs", "value": "12" }
+        ]
+      },
+      {
+        "title": "Open source projects I worked on",
+        "description": "Open-source projects I've contributed to & collaborated on.",
+        "icon": "GitPullRequest",
+        "stats": [
+          { "icon": "GitPullRequest", "label": "PRs", "value": "12" },
+          { "icon": "MessageSquare", "label": "Reviews", "value": "28" },
+          { "icon": "Bug", "label": "Issues", "value": "7" }
+        ]
+      },
+      {
+        "title": "All my Articles and Writing",
+        "description": "Blogs, wiki pages, documentations & learnings I've posted.",
+        "icon": "FileText",
+        "stats": [
+          { "icon": "NotebookPen", "label": "Blogs", "value": "8" },
+          { "icon": "BookOpenText", "label": "Docs", "value": "10" },
+          { "icon": "Folder", "label": "Total", "value": "18" }
+        ]
+      }
+    ]
+  },
+
+  "aboutPage": {
+    "hero": {
+      "headline": "I build modern full stack apps and free tools that save time.",
+      "subheadline": "",
+      "portraitUrl": "/avatar.jpg",
+      "locationLabel": "Houston, TX",
+
+      "primaryCta": {
+        "label": "View Projects",
+        "href": "/#projects",
+        "external": false,
+        "icon": "ArrowRight"
+      },
+      "secondaryCta": {
+        "label": "View Resume",
+        "href": "/resume",
+        "external": false,
+        "icon": "ExternalLink"
+      }
+    },
+
+    "story": {
+      "paragraphs": [
+        "I’m a full-stack focused, performance-first builder who’s obsessed with clean UI and maintainable architecture. I’m currently an undergraduate student at the University of Houston pursuing a B.S. in Computer Science, and I’m almost always building something on the side. I like creating products that feel fast, clean, and genuinely useful — especially tools that remove friction, reduce busywork, and make people’s day easier.",
+        "A lot of my work is full-stack end to end: modern UI, a reliable backend, and practical features that actually get used. Recently, I built a full-stack app used by 100+ students that helps UH students understand degree progress and get schedule recommendations. I care a lot about polish — spacing, clarity, and performance — and I’m constantly improving my engineering habits by focusing on clean architecture, better reliability, and systems that scale without turning into spaghetti."
+      ]
+    },
+
+    "now": {
+      "title": "What I’m currently working on",
+      "paragraphs": [
+        "Right now I’m iterating on QuickFolio (a clean portfolio template for developers) and expanding CoogPlanner — a full-stack app that helps UH students understand degree progress and build better schedules.",
+        "I also recently started VisibleSeed — where I build fast, modern websites and automation systems for local businesses. My focus is shipping reliable features, keeping the UI crisp, and making everything easy to use."
+      ],
+      "imageUrl": "",
+      "imageAlt": "Currently working on"
+    },
+
+    "usage": {
+      "title": "Usage",
+      "description": "The stack and tools I like using day to day.",
+
+      "technologies": [
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "Python",
+        "C++",
+        "Supabase"
+      ],
+
+      "tools": [
+        "Ubuntu Linux",
+        "Git Bash",
+        "Firefox",
+        "Visual Studio Code",
+        "Notion"
+      ],
+
+      "platforms": [
+        "Cloudflare",
+        "GitHub",
+        "Vercel",
+        "Netlify",
+        "Google Cloud Run"
+      ]
+    },
+
+    "setup": {
+      "title": "Setup",
+      "paragraphs": [
+        "I’m big on a clean, fast setup that keeps me in flow — minimal friction, quick feedback loops, and tools that don’t fight you.",
+        "My ideal setup is simple: fast machine, tidy workspace, and a workflow that makes it easy to stay consistent."
+      ],
+      "imageUrl": "/images/setup.jpg",
+      "imageAlt": "My setup",
+      "caption": "Clean workspace, fast feedback loops, and minimal friction."
+    },
+
+    "socialsSection": {
+      "title": "Socials",
+      "description": "Where I’m active and easy to reach."
+    },
+
+    "socials": {
+      "items": [
+        {
+          "type": "email",
+          "label": "contact@kevintrinh.dev",
+          "href": "mailto:contact@kevintrinh.dev"
+        },
+        {
+          "type": "linkedin",
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/KevinTrinhDev"
+        },
+        {
+          "type": "github",
+          "label": "GitHub",
+          "href": "https://github.com/KevinTrinhDev"
+        },
+        {
+          "type": "tiktok",
+          "label": "TikTok",
+          "href": "https://www.tiktok.com/@KevinTrinhDev"
+        },
+        {
+          "type": "youtube",
+          "label": "YouTube",
+          "href": "https://www.youtube.com/@KevinTrinhDev"
+        },
+        { "type": "x", "label": "X", "href": "https://x.com/KevinTrinhDev" },
+        {
+          "type": "threads",
+          "label": "Threads",
+          "href": "https://www.threads.net/@KevinTrinhDev"
+        },
+        {
+          "type": "devto",
+          "label": "Dev.to",
+          "href": "https://dev.to/KevinTrinhDev"
+        },
+        {
+          "type": "medium",
+          "label": "Medium",
+          "href": "https://medium.com/@KevinTrinhDev"
+        },
+        {
+          "type": "leetcode",
+          "label": "LeetCode",
+          "href": "https://leetcode.com/KevinTrinhDev/"
+        },
+        {
+          "type": "handshake",
+          "label": "Handshake",
+          "href": "https://joinhandshake.com/"
+        },
+        {
+          "type": "discord",
+          "label": "Discord Community",
+          "href": "https://discord.com/"
+        }
+      ]
+    },
+
+    "inspirations": {
+      "title": "Inspirations",
+      "description": "Creators and builders I learn from consistently — coding, product mindset, business, and staying disciplined.",
+      "people": [
+        {
+          "name": "Neet Code",
+          "href": "https://www.youtube.com/@NeetCode",
+          "avatarUrl": "default.jpg"
+        },
+        {
+          "name": "Alex Hormozi",
+          "href": "https://www.youtube.com/@AlexHormozi",
+          "avatarUrl": "default.jpg"
+        },
+        {
+          "name": "Gazi Ai",
+          "href": "https://www.youtube.com/@gaziai",
+          "avatarUrl": "default.jpg"
+        },
+        {
+          "name": "Sarah Liyt",
+          "href": "https://www.youtube.com/@sarahliyt",
+          "avatarUrl": "default.jpg"
+        },
+        {
+          "name": "Jenn Cho",
+          "href": "https://www.youtube.com/@imjenncho",
+          "avatarUrl": "default.jpg"
+        },
+        {
+          "name": "Bax Ate",
+          "href": "https://www.youtube.com/@Baxate",
+          "avatarUrl": "default.jpg"
+        },
+        {
+          "name": "Sarah Pan",
+          "href": "https://www.youtube.com/@sarahpan",
+          "avatarUrl": "default.jpg"
+        },
+        {
+          "name": "Brian Ruiz",
+          "href": "https://www.youtube.com/@brianruizy",
+          "avatarUrl": "default.jpg"
+        }
+      ]
+    }
+  }
+}

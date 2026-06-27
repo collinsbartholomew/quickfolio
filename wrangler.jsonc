@@ -1,0 +1,24 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "kevintrinh-dev",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2025-03-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "NEXT_INC_CACHE_KV",
+      "id": "2f7020207b49487d844c6376d2ceae90"
+    },
+    {
+      "binding": "ARTICLE_VIEWS",
+      "id": "a3309691eaa34e70a9c4f417222bac8e"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
